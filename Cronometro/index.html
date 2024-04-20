@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-b">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cronometro</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>CRONÔMETRO</h1><br><br><br>
-    <div><br><br>
-        <h1>00:00:00</h1><br><br><br><br>
-        <input type="button" value="Iniciar" onclick="iniciar()" >
-        <input type="button" value="Parar">
-        <input type="button" value="Resetar">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>CRONÔMETRO</h1>
+    <br /><br /><br />
+    <div>
+      <br /><br />
+      <h1 id="display">00:00:00</h1>
+      <br /><br /><br /><br />
+      <input type="button" value="Iniciar" onclick="iniciar()" />
+      <input type="button" value="Parar" onclick="pause()" />
+      <input type="button" value="Resetar" onclick="reset()" />
     </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
