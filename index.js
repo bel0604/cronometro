@@ -6,7 +6,8 @@ let interval
 const display = document.getElementById('display')
 
 function iniciar (){
-   interval = setInterval(() => {
+    if(seg > 0) return
+      interval = setInterval(() => {
         seg ++;
         if (seg == 60){
         seg = 0;
